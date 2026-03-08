@@ -11,18 +11,23 @@ This automation helps reduce manual data entry, improves efficiency, and ensures
 "Workflow" Excel File
 
 ↓
+
 Import Set Table
 
 ↓
+
 Transform Map
 
 ↓
+
 User Table
 
 ↓
+
 Relationship Mapping using Dot Walking
 
 ↓
+
 Priority Default Configuration using Dictionary Override
 
 
@@ -31,10 +36,15 @@ Priority Default Configuration using Dictionary Override
 Milestone 1 – Automating Employee Data Import
 
 Create employee dataset using Excel.
+
 Upload the dataset using Import Sets → Load Data.
+
 ServiceNow creates an Import Set table to temporarily store data.
+
 Create a Transform Map to move data from Import Set table to the User table (sys_user).
+
 Use Mapping Assist to map fields like department, manager, and email.
+
 Execute the transform process to insert employee records into the User table.
 
 Milestone 2 – Relationship Mapping using Dot Walking
