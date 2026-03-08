@@ -9,16 +9,22 @@ Additionally, the project shows how Dictionary Override can be used to customize
 This automation helps reduce manual data entry, improves efficiency, and ensures accurate relationship mapping between ServiceNow tables.
 
 "Workflow" Excel File
+
 ↓
 Import Set Table
+
 ↓
 Transform Map
+
 ↓
 User Table
+
 ↓
 Relationship Mapping using Dot Walking
+
 ↓
 Priority Default Configuration using Dictionary Override
+
 
 " Project Milestones"
 
