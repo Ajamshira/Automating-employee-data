@@ -44,10 +44,15 @@ When a user is selected in the Assigned To field, the related information such a
 Milestone 3 – Priority Default using Dictionary Override
 
 Open the Incident table.
+
 Locate the Priority field in the dictionary.
+
 Create a Dictionary Override for the Incident table.
+
 Set the default priority value for incident records.
+
 This allows customizing the priority field behavior specifically for the Incident table.
+
 Technologies Used
 
 ServiceNow Developer Instance
