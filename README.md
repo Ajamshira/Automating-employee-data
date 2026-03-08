@@ -40,11 +40,17 @@ Execute the transform process to insert employee records into the User table.
 Milestone 2 – Relationship Mapping using Dot Walking
 
 Open the Incident form.
+
 Configure the form layout using Configure → Form Layout.
+
 Add fields:
+
 assigned_to.department
+
 assigned_to.email
+
 assigned_to.manager
+
 When a user is selected in the Assigned To field, the related information such as department and email is automatically retrieved using Dot Walking.
 
 Milestone 3 – Priority Default using Dictionary Override
