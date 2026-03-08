@@ -30,6 +30,7 @@ ServiceNow creates an Import Set table to temporarily store data.
 Create a Transform Map to move data from Import Set table to the User table (sys_user).
 Use Mapping Assist to map fields like department, manager, and email.
 Execute the transform process to insert employee records into the User table.
+
 Milestone 2 – Relationship Mapping using Dot Walking
 
 Open the Incident form.
@@ -39,6 +40,7 @@ assigned_to.department
 assigned_to.email
 assigned_to.manager
 When a user is selected in the Assigned To field, the related information such as department and email is automatically retrieved using Dot Walking.
+
 Milestone 3 – Priority Default using Dictionary Override
 
 Open the Incident table.
